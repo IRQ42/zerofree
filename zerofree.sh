@@ -6,7 +6,7 @@
 # Clean up after this script exits
 cleanup() {
 	rm -f $TMPFILE
-  sync
+ 	sync
 }
 
 trap cleanup EXIT
